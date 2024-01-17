@@ -1,7 +1,7 @@
 import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
 
-import {Articles, Components, Home, Profile, Register, Pro, Carpicker, Tablepicker} from '../screens';
+import {Articles, Components, Home, Profile, Register, Pro, Carpicker, Tablepicker, Timeregister} from '../screens';
 import {useScreenOptions, useTranslation} from '../hooks';
 import Notification from '../components/Notification';
 import Approvals from '../screens/Approvals/Approvals';
@@ -54,12 +54,16 @@ export default () => {
         component={Approvals}
       />
       <Stack.Screen 
-        name='Carpicker'
+        name='Машин захиалах'
         component={Carpicker}
       />
       <Stack.Screen 
-        name='Tablepicker'
+        name='Ширээ захиалах'
         component={Tablepicker}
+      />
+      <Stack.Screen 
+        name='Timeregister'
+        component={Timeregister}
       />
     </Stack.Navigator>
   );

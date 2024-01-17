@@ -37,7 +37,7 @@ const TablePicker = () => {
           <Button
             gradient={gradients.primary}>
             <Text white bold transform="uppercase">
-              Машин захиалах
+              Ширээ захиалах
             </Text>
           </Button>
         </Block>
@@ -55,7 +55,7 @@ const TablePicker = () => {
           <Button
             gradient={gradients.primary}>
             <Text white bold transform="uppercase">
-              Машин захиалах
+                Ширээ захиалах
             </Text>
           </Button>
         </Block>

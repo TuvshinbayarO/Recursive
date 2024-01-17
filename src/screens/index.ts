@@ -20,3 +20,4 @@ export {default as Pro} from './Pro';
 export {default as Approvals} from './Approvals/Approvals'
 export {default as Carpicker} from './Carpicker/CarPicker'
 export {default as Tablepicker} from './Tablepicker/Tablepicker'
+export {default as Timeregister} from './TimeRegister/Timeregister'

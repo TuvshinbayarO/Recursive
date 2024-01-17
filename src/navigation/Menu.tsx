@@ -93,8 +93,9 @@ const DrawerContent = (
     {name: t('screens.register'), to: 'Register', icon: assets.register},
     {name: t('screens.extra'), to: 'Pro', icon: assets.extras},
     {name: 'Approvals', to: 'Approvals', icon: assets.extras},
-    {name: 'Carpicker', to: 'Carpicker', icon: assets.extras},
-    {name: 'Tablepicker', to: 'Tablepicker', icon: assets.extras}
+    {name: 'Машин захиалах', to: 'Машин захиалах', icon: assets.extras},
+    {name: 'Ширээ захиалах', to: 'Ширээ захиалах', icon: assets.extras},
+    {name: 'Цаг бүртгэл', to: 'Timeregister', icon: assets.extras}
   ];
 
   return (
